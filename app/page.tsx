@@ -15,6 +15,7 @@ export default function Home() {
           className="flex-1"
           width="600"
           height="600"
+          loading="eager"
         />
 
         {/* Introduction */}
