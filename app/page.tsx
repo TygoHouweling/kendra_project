@@ -10,7 +10,7 @@ export default function Home() {
 
         {/* Photo placeholder */}
         <Image
-          src="/images/flower_green.png"
+          src="/images/green_flower.png"
           alt="frontpage filler image"
           className="flex-1"
           width="600"
