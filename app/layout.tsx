@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
-import {CustomHeader} from "@/components/header"
+import { CustomHeader } from "@/components/header"
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -33,12 +33,13 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col">
         <header>
-          <div className="flex justify-between w-[97vw] px-12 py-3">
-            <Link href="/">Home</Link>
+          <div>
             <CustomHeader></CustomHeader>
           </div>
         </header>
-        {children}
+        <div className="mt-10">
+          {children}
+        </div>
       </body>
     </html>
   );
