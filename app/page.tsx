@@ -29,7 +29,7 @@ export default function Home() {
             </p>
             <p>
               Verder heb ik mijzelf ontwikkeld als professional in het werkveld.
-              Dit laat ik allemaal zien aan de hand van verschillende leeruitkomsten. Die weer zijn opgedeeld in verschillende bewijslasten.
+              Dit laat ik allemaal zien aan de hand van verschillende leeruitkomsten, die weer zijn opgedeeld in verschillende bewijslasten.
               Aan de hand van deze praktijkervaringen wil ik mijn laatste twee jaar van deze studie voor mijzelf beter in beeld brengen.
             </p>
           </div>
