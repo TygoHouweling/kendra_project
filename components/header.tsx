@@ -16,7 +16,7 @@ export function CustomHeader() {
     return (
         <div className="flex w-full gap-5 justify-center bg-[#f1d5cc] px-12 py-3">
             {/* Leeruitkomst 1 — dropdown */}
-            <div className="flex gap-3">
+            <div className="flex gap-[3vw]">
                 <div className="relative" ref={ref}>
                     <button
                         onClick={() => setOpen((o) => !o)}
@@ -62,7 +62,7 @@ export function CustomHeader() {
                       loading="eager"
                     />
             </Link>
-            <div className="flex gap-3">
+            <div className="flex gap-[3vw]">
                 <Link href="/leeruitkomst4">Leeruitkomst 4</Link>
                 <Link href="/leeruitkomst5">Leeruitkomst 5</Link>
                 <Link href="/leeruitkomst6">Leeruitkomst 6</Link>

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function leeruitkomst2() {
   return (
-    <div className="mx-[10vw] mb-[5vh]">
+    <div className="mx-[10vw] mb-[5vh] min-h-full">
       <h1>Leeruitkomst 2</h1>
       <h2>Subkopje Leeruitkomst 2</h2>
       <div className="gap-[5vh] flex-col flex">
