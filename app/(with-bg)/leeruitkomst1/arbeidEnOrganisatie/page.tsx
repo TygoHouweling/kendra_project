@@ -7,16 +7,17 @@ export default function arbeidEnOrganisatie() {
             <h2>Webinar werkdruk en werkstress de baas</h2>
             <p>Ik ga een online webinar volgen genaamd "werkdruk en werkstress de baas", die gaat over psychosociale arbeidsbelasting (PSA) en hoe daarmee omgegaan kan worden als leidinggevende of preventiemedewerker. Deze webinar sluit aan bij de specialisatie arbeid en organisatie en laat zien dat ik mij hierin heb verdiept. Ik verwerk opgedane kennis in een mindmap.
             </p>
-            <div className="flex mx-[10vw]">
-                <Image
-                    src="/images/webinar_werkdrukEnWerkstress.png"
-                    alt="frontpage filler image"
-                    className="flex-1 rounded-xl shadow"
-                    width="600"
-                    height="600"
-                    loading="eager"
-                />
+            <div className="flex mx-[20vw]">
 
+                <a href="/images/webinar_werkdrukEnWerkstress.png" download>
+                    <Image
+                        src="/images/webinar_werkdrukEnWerkstress.png"
+                        alt="frontpage filler image"
+                        className="flex-1 rounded-xl shadow"
+                        width="600"
+                        height="600"
+                        loading="eager"
+                    /></a>
             </div>
             <p>
                 De webinar sluit aan bij de specialisatie arbeid en organisatie, omdat het gaat over mens en werk. Bij arbeid en organisatie is het doel om mensen te laten floreren in hun werk en organisatie. Dit kan dwarsgezeten worden door werkstress oftewel psychosociale arbeidsbelasting. In de webinar wordt hierop ingegaan, dus wat het inhoudt maar ook hoe hiermee omgegaan kan worden.
