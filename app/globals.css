@@ -1,10 +1,27 @@
 @import "tailwindcss";
 
+@theme {
+  --color-brand: var(--brand);
+  --color-brand-selected: var(--brand-selected);
+}
+
+.theme-uitvoering {
+  --color-brand: #92AC86;
+  --color-brand-selected: color-mix(in srgb, #92AC86 30%, white)
+}
+
+.theme-verantwoording {
+  --color-brand: #F18805;
+    --color-brand-selected: color-mix(in srgb, #F18805 60%, white)
+
+}
+
 :root {
   /* --background: #fff1e3; */
   --background: #f7ede4;
   --foreground: #171717;
   --brand: #f1d5cc;
+  /* default */
   /* your brand color */
 }
 

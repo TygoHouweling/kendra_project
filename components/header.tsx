@@ -14,7 +14,7 @@ export function CustomHeader() {
 
     ];
     return (
-        <div className="flex w-full gap-5 justify-center bg-[#f1d5cc] px-12 py-3 fixed top-0 z-50">
+        <div className="flex w-full gap-5 justify-center bg-brand px-12 py-3 fixed top-0 z-50">
             {/* Leeruitkomst 1 — dropdown */}
             <div className="flex gap-[3vw]">
                 <div className="relative" ref={ref}>

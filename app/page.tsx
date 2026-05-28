@@ -1,31 +1,17 @@
+import { CustomFooter } from "@/components/footer";
+import { CustomHeader } from "@/components/header";
 import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="flex justify-center">
+    <main className="flex justify-center flex-col">
 
-      {/* <div className="fixed left-0 top-0 h-full flex items-center pointer-events-none z-10">
-        <Image
-          src="/images/flower_green.png"
-          alt="frontpage filler image"
-          width="300"
-          height="300"
-          loading="eager"
-        />
-      </div>
+      {/* <CustomHeader /> */}
+      <CustomFooter />
 
-      <div className="fixed right-0 top-0 h-full flex items-center pointer-events-none z-10">
-        <Image
-          src="/images/flower_pink.png"
-          alt="frontpage filler image"
-          width="300"
-          height="300"
-          loading="eager"
-        />
-      </div> */}
 
-      <div className="flex flex-col gap-[5vh] w-[80vw]">
+      <div className="flex flex-col gap-[5vh] w-[80vw] w-full">
         <div className="flex justify-center">
 
           <div className="flex flex-col gap-2 justify-start mt-[5vh] items-center text-center px-8">
@@ -56,8 +42,8 @@ export default function Home() {
               <h4>Uitvoering</h4>
               <p>Bekijk alle praktijkervaringen en wat ik heb gedaan.</p>
               <Link
-                key=""
-                href=""
+                key="/leeruitkomst1/ArbeidEnOrganisatie/uitvoering"
+                href="/leeruitkomst1/ArbeidEnOrganisatie/uitvoering"
                 className="px-[2vw] py-[2vh] rounded-xl border border-2 border-[#92AC86]/20 bg-[#92AC86]/60 hover:bg-[#92AC86]"
               >
                 Ga naar uitvoering
@@ -70,8 +56,8 @@ export default function Home() {
               <h4>Verantwoording</h4>
               <p>Bekijk de verantwoording, reflectie en koppeling aan de leeruitkomsten.</p>
               <Link
-                key=""
-                href=""
+                 key="/leeruitkomst1/ArbeidEnOrganisatie/verantwoording"
+                href="/leeruitkomst1/ArbeidEnOrganisatie/verantwoording"
                 className="px-[2vw] py-[2vh] rounded-xl border border-2 border-[#F18805]/20 bg-[#F18805]/60 hover:bg-[#F18805]"
               >
                 Ga naar verantwoording
@@ -80,9 +66,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-
-
-
 
     </main>
   );
