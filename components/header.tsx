@@ -14,7 +14,7 @@ export function CustomHeader() {
 
     ];
     return (
-        <div className="flex w-full gap-5 justify-center bg-[#f1d5cc] px-12 py-3">
+        <div className="flex w-full gap-5 justify-center bg-[#f1d5cc] px-12 py-3 fixed top-0 z-50">
             {/* Leeruitkomst 1 — dropdown */}
             <div className="flex gap-[3vw]">
                 <div className="relative" ref={ref}>
@@ -53,14 +53,14 @@ export function CustomHeader() {
                 <Link href="/leeruitkomst3">Leeruitkomst 3</Link>
             </div>
             <Link href="/">
-            <Image
-                      src="/images/logo_kendra.png"
-                      alt="frontpage filler image"
-                      className="flex-1"
-                      width="85"
-                      height="40"
-                      loading="eager"
-                    />
+                <Image
+                    src="/images/logo_kendra.png"
+                    alt="frontpage filler image"
+                    className="flex-1"
+                    width="85"
+                    height="40"
+                    loading="eager"
+                />
             </Link>
             <div className="flex gap-[3vw]">
                 <Link href="/leeruitkomst4">Leeruitkomst 4</Link>

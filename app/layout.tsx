@@ -4,6 +4,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
 import { CustomHeader } from "@/components/header"
+import { CustomFooter } from "@/components/footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -29,17 +30,13 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">
-        <header>
-          <div>
-            <CustomHeader></CustomHeader>
-          </div>
-        </header>
-        <div className="mt-10">
+      <body className="min-h-screen flex flex-col">
+        <CustomHeader />
+        <div className="mt-10 flex-1">
           {children}
         </div>
+        <CustomFooter />
       </body>
     </html>
   );

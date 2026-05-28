@@ -4,6 +4,8 @@
   /* --background: #fff1e3; */
   --background: #f7ede4;
   --foreground: #171717;
+  --brand: #f1d5cc;
+  /* your brand color */
 }
 
 @media (prefers-color-scheme: dark) {
