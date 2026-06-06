@@ -5,7 +5,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
 import { CustomSidebar } from "@/components/sidebar";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Image from "next/image";
 
 const geistSans = Geist({
@@ -19,8 +19,14 @@ const geistMono = Geist_Mono({
 });
 
 export default function VerantwoordingLayout({ children }: { children: React.ReactNode }) {
+
   const [isOpen, setIsOpen] = useState(false);
 
+  useEffect(() => {
+    document.body.style.overflow = isOpen ? "hidden" : "";
+    return () => { document.body.style.overflow = ""; };
+  }, [isOpen]);
+  
   return <div className="theme-verantwoording">
     <div>
       <div className="hidden lg:block">
@@ -38,7 +44,7 @@ export default function VerantwoordingLayout({ children }: { children: React.Rea
         <Image src="/bars.svg" alt="Open menu" width={24} height={24} />
       </button>
       <div
-        className={`lg:w-[85vw] ml-auto lg:pt-[2vh] pt-[10vh] ${isOpen ? "overflow-y-hidden" : ""}`}
+        className={`lg:w-[85vw] ml-auto lg:pt-[2vh] pt-[10vh]`}
         onClick={() => { if (isOpen) setIsOpen(false); }}
       >
         {children}
