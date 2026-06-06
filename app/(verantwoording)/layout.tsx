@@ -32,7 +32,7 @@ export default function VerantwoordingLayout({ children }: { children: React.Rea
         </div>
       )}
       <button
-        className="lg:hidden bg-brand rounded-full p-3 absolute top-5 left-5"
+        className="lg:hidden bg-brand rounded-full p-3 absolute top-5 left-5 sticky"
         onClick={() => setIsOpen(!isOpen)}
       >
         <Image src="/bars.svg" alt="Open menu" width={24} height={24} />

@@ -32,13 +32,13 @@ export default function UitvoeringLayout({ children }: { children: React.ReactNo
         </div>
       )}
       <button
-        className="lg:hidden bg-brand rounded-full p-3 absolute top-5 left-5"
+        className="lg:hidden bg-brand rounded-full p-3 absolute top-5 left-5 sticky"
         onClick={() => setIsOpen(!isOpen)}
       >
         <Image src="/bars.svg" alt="Open menu" width={24} height={24} />
       </button>
       <div
-        className="lg:w-[85vw] ml-auto lg:pt-[2vh] pt-[10vh]"
+        className={`lg:w-[85vw] ml-auto lg:pt-[2vh] pt-[10vh] ${isOpen ? "overflow-y-hidden" : ""}`}
         onClick={() => { if (isOpen) setIsOpen(false); }}
       >
         {children}
