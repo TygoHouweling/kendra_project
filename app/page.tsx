@@ -30,11 +30,11 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center text-center">
           <h2>Kies wat je wilt bekijken</h2>
-          <div className="flex justify-between pt-[3vh] w-[70vw] mb-[5vh]">
+          <div className="flex justify-between pt-[3vh] w-[70vw] mb-[5vh] flex-col lg:flex-row gap-[2vh] lg:gap-[2vw]">
 
-            <div className="w-[30vw] gap-[2vh] bg-[#92AC86]/20 border-[#92AC86] shadow-xl rounded-xl border-3 border flex flex-col items-center py-[3vh] px-[2vw] text-center">
+            <div className="w-full lg:w-[30vw] gap-[2vh] bg-[#92AC86]/20 border-[#92AC86] shadow-xl rounded-xl border-3 border flex flex-col items-center py-[3vh] px-[2vw] text-center">
               <div className="rounded-full bg-[#92AC86] shrink-0">
                 <Image src="/checklist.png" width={80} height={80} alt="" />
               </div>
@@ -48,7 +48,7 @@ export default function Home() {
                 Ga naar uitvoering
               </Link>
             </div>
-            <div className="w-[30vw] gap-[2vh] bg-[#F089BB]/20 border-[#F089BB] shadow-xl rounded-xl border-3 border flex flex-col items-center py-[3vh] px-[2vw] text-center">
+            <div className="w-full lg:w-[30vw] gap-[2vh] bg-[#F089BB]/20 border-[#F089BB] shadow-xl rounded-xl border-3 border flex flex-col items-center py-[3vh] px-[2vw] text-center">
               <div className="rounded-full bg-[#F089BB] shrink-0">
                 <Image src="/brain.png" width={80} height={80} alt="" />
               </div>
