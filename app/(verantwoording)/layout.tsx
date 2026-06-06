@@ -38,7 +38,7 @@ export default function VerantwoordingLayout({ children }: { children: React.Rea
         <Image src="/bars.svg" alt="Open menu" width={24} height={24} />
       </button>
       <div
-        className="lg:w-[85vw] ml-auto lg:pt-[2vh] pt-[10vh]"
+        className={`lg:w-[85vw] ml-auto lg:pt-[2vh] pt-[10vh] ${isOpen ? "overflow-y-hidden" : ""}`}
         onClick={() => { if (isOpen) setIsOpen(false); }}
       >
         {children}
