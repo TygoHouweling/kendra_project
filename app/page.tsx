@@ -1,5 +1,4 @@
 import { CustomFooter } from "@/components/footer";
-import { CustomHeader } from "@/components/header";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -42,23 +41,23 @@ export default function Home() {
               <h4>Uitvoering</h4>
               <p>Bekijk alle praktijkervaringen en wat ik heb gedaan.</p>
               <Link
-                key="/leeruitkomst1/ArbeidEnOrganisatie/uitvoering"
-                href="/leeruitkomst1/ArbeidEnOrganisatie/uitvoering"
+                 key="/careIbu/uitvoering"
+                href="/careIbu/uitvoering"
                 className="px-[2vw] py-[2vh] rounded-xl border border-2 border-[#92AC86]/20 bg-[#92AC86]/60 hover:bg-[#92AC86]"
               >
                 Ga naar uitvoering
               </Link>
             </div>
-            <div className="w-[30vw] gap-[2vh] bg-[#F18805]/20 border-[#F18805] shadow-xl rounded-xl border-3 border flex flex-col items-center py-[3vh] px-[2vw] text-center">
-              <div className="rounded-full bg-[#F18805] shrink-0">
+            <div className="w-[30vw] gap-[2vh] bg-[#F089BB]/20 border-[#F089BB] shadow-xl rounded-xl border-3 border flex flex-col items-center py-[3vh] px-[2vw] text-center">
+              <div className="rounded-full bg-[#F089BB] shrink-0">
                 <Image src="/brain.png" width={80} height={80} alt="" />
               </div>
               <h4>Verantwoording</h4>
               <p>Bekijk de verantwoording, reflectie en koppeling aan de leeruitkomsten.</p>
               <Link
-                 key="/leeruitkomst1/ArbeidEnOrganisatie/verantwoording"
-                href="/leeruitkomst1/ArbeidEnOrganisatie/verantwoording"
-                className="px-[2vw] py-[2vh] rounded-xl border border-2 border-[#F18805]/20 bg-[#F18805]/60 hover:bg-[#F18805]"
+                 key="/careIbu/verantwoording"
+                href="/careIbu/verantwoording"
+                className="px-[2vw] py-[2vh] rounded-xl border border-2 border-[#F089BB]/20 bg-[#F089BB]/60 hover:bg-[#F089BB]"
               >
                 Ga naar verantwoording
               </Link>

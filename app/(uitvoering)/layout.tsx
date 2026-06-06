@@ -3,7 +3,6 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
-import { CustomHeader } from "@/components/header"
 import { CustomSidebar } from "@/components/sidebar";
 
 const geistSans = Geist({
@@ -25,9 +24,8 @@ export default function UitvoeringLayout({ children }: { children: React.ReactNo
     {/* <CustomHeader></CustomHeader> */}
     <div>
       <CustomSidebar></CustomSidebar>
-      <div className="max-w-[70vw] ml-auto">
+      <div className="max-w-[70vw] ml-auto pt-[2vh]">
         {children}
-
       </div>
     </div>
   </div>;

@@ -8,7 +8,7 @@ export function NavLink({ href, label }: { href: string; label: string }) {
   return (
     <Link
       href={href}
-      className={`px-[1vw] py-[2vh] rounded-lg ${pathname === href ? "bg-brand-selected" : ""}`}
+      className={`px-[1vw] py-[1vh] rounded-lg ${pathname === href ? "bg-brand-selected" : ""}`}
     >
       {label}
     </Link>
