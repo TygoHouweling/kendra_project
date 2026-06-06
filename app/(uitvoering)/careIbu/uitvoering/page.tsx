@@ -73,7 +73,7 @@ export default function careIbuUitvoering() {
                                 </p>
                             </td>
                         </tr>
-                        <tr className="bg-[#f7ede4]">
+                        <tr className="bg-[#f7ede4] border-b-1">
                             <td><p>Maandag 18 mei</p></td>
                             <td><p>In de ochtend op de duofiets. In de middag wafels versieren, beleef tv en muziek luisteren en zingen. </p></td>
                             <td>
