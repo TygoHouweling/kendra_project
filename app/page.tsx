@@ -33,7 +33,20 @@ export default function Home() {
         <div className="flex flex-col items-center text-center">
           <h2>Kies wat je wilt bekijken</h2>
           <div className="flex justify-between pt-[3vh] w-[70vw] mb-[5vh] flex-col lg:flex-row gap-[2vh] lg:gap-[2vw]">
-
+            <div className="w-full lg:w-[30vw] gap-[2vh] bg-[#e08484]/20 border-[#e08484] shadow-xl rounded-xl border-3 border flex flex-col items-center py-[3vh] px-[2vw] text-center">
+              <div className="rounded-full bg-[#e08484] shrink-0">
+                <Image src="/leeruitkomsten.png" width={80} height={80} alt="" />
+              </div>
+              <h4>Leeruitkomsten</h4>
+              <p>Bekijk alles over mijn interperatie van de leeruitkomsten.</p>
+              <Link
+                 key="/leeruitkomst1"
+                href="/leeruitkomst1"
+                className="px-[2vw] py-[2vh] rounded-xl border border-2 border-[#e08484]/20 bg-[#e08484]/60 hover:bg-[#e08484]"
+              >
+                Ga naar uitvoering
+              </Link>
+            </div>
             <div className="w-full lg:w-[30vw] gap-[2vh] bg-[#92AC86]/20 border-[#92AC86] shadow-xl rounded-xl border-3 border flex flex-col items-center py-[3vh] px-[2vw] text-center">
               <div className="rounded-full bg-[#92AC86] shrink-0">
                 <Image src="/checklist.png" width={80} height={80} alt="" />

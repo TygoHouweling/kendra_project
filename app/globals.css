@@ -16,6 +16,11 @@
 
 }
 
+.theme-leeruitkomsten {
+  --color-brand: #e08484;
+  --color-brand-selected: color-mix(in srgb, #e08484 60%, white)
+}
+
 :root {
   /* --background: #fff1e3; */
   --background: #f7ede4;
