@@ -22,8 +22,8 @@ export function CustomFooter() {
             <span className="text-sm text-[#888780]">
                 Judith van Valkenhoef & Martina Geers-de Korte
             </span>
-            <span className="text-sm text-[#888780]">07-06-2026</span>
-            <span className="text-sm text-[#888780]">Kans 1</span>
+            <span className="text-sm text-[#888780]">05-07-2026</span>
+            <span className="text-sm text-[#888780]">Kans 2</span>
         </div>
     )
 }
