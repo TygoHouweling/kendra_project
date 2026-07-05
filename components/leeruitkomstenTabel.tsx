@@ -66,7 +66,7 @@ export function LeeruitkomstenTabel() {
                         <td className="border border-gray-300 p-2"></td>
                     </tr>
                     <tr>
-                        <td className="border border-gray-300 p-2"><p>Traject psycholoog </p></td>
+                        <td className="border border-gray-300 p-2"><p>Behandeltraject psycholoog angststoornis </p></td>
                         <td className="border border-gray-300 p-2"></td>
                         <td className="border border-gray-300 p-2 bg-pink-200"></td>
                         <td className="border border-gray-300 p-2"></td>

@@ -45,6 +45,13 @@ export function CustomSidebar({ onClose }: Props) {
             ],
         },
         {
+            title: "Interview winkel coördinator Albert Heijn",
+            links: [
+                { href: "/interviewWinkelCoordinator/uitvoering", label: "Uitvoering" },
+                { href: "/interviewWinkelCoordinator/verantwoording", label: "Verantwoording" },
+            ],
+        },
+        {
             title: "Meekijken bij sollictatie gesprek",
             links: [
                 { href: "/meekijkenSollicitatie/uitvoering", label: "Uitvoering" },
@@ -59,7 +66,7 @@ export function CustomSidebar({ onClose }: Props) {
             ],
         },
         {
-            title: "Traject psycholoog",
+            title: "Behandeltraject psycholoog angststoornis",
             links: [
                 { href: "/trajectPsycholoog/uitvoering", label: "Uitvoering" },
                 { href: "/trajectPsycholoog/verantwoording", label: "Verantwoording" },
@@ -80,12 +87,76 @@ export function CustomSidebar({ onClose }: Props) {
             ],
         },
         {
-            title: "Gesprek immigratie",
+            title: "Website maken",
             links: [
-                { href: "/gesprekImmigratie/uitvoering", label: "Uitvoering" },
-                { href: "/gesprekImmigratie/verantwoording", label: "Verantwoording" },
+                { href: "/websiteMaken/uitvoering", label: "Uitvoering" },
+                { href: "/websiteMaken/verantwoording", label: "Verantwoording" },
             ],
-        }
+        },
+        {
+            title: "Documentaire inside the manosphere",
+            links: [
+                { href: "/documentaireManosphere/uitvoering", label: "Uitvoering" },
+                { href: "/documentaireManosphere/verantwoording", label: "Verantwoording" },
+            ],
+        },
+        {
+            title: "Blik op jezelf test",
+            links: [
+                { href: "/blikOpJezelfTest/uitvoering", label: "Uitvoering" },
+                { href: "/blikOpJezelfTest/verantwoording", label: "Verantwoording" },
+            ],
+        },
+        {
+            title: "Boek 'gegijzeld'",
+            links: [
+                { href: "/boekGegijzeld/uitvoering", label: "Uitvoering" },
+                { href: "/boekGegijzeld/verantwoording", label: "Verantwoording" },
+            ],
+        },
+        {
+            title: "Gesprek vriendin over geloof",
+            links: [
+                { href: "/gesprekVriendinGeloof/uitvoering", label: "Uitvoering" },
+                { href: "/gesprekVriendinGeloof/verantwoording", label: "Verantwoording" },
+            ],
+        },
+        {
+            title: "CV opstellen",
+            links: [
+                { href: "/cvOpstellen/uitvoering", label: "Uitvoering" },
+                { href: "/cvOpstellen/verantwoording", label: "Verantwoording" },
+            ],
+        },
+        {
+            title: "Gesprek inburgering",
+            links: [
+                { href: "/gesprekInburgering/uitvoering", label: "Uitvoering" },
+                { href: "/gesprekInburgering/verantwoording", label: "Verantwoording" },
+            ],
+        },
+        {
+            title: "Observeren ongeluk",
+            links: [
+                { href: "/observerenOngeluk/uitvoering", label: "Uitvoering" },
+                { href: "/observerenOngeluk/verantwoording", label: "Verantwoording" },
+            ],
+        },
+        {
+            title: "Podcast van verslaving naar vrijheid",
+            links: [
+                { href: "/podcastVerslavingNaarVrijheid/uitvoering", label: "Uitvoering" },
+                { href: "/podcastVerslavingNaarVrijheid/verantwoording", label: "Verantwoording" },
+            ],
+        },
+        {
+            title: "SPSS",
+            links: [
+                { href: "/podcastVerslavingNaarVrijheid/uitvoering", label: "Uitvoering" },
+                { href: "/podcastVerslavingNaarVrijheid/verantwoording", label: "Verantwoording" },
+            ],
+        },
+
 
     ];
     return (
