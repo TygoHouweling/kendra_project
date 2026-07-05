@@ -10,7 +10,7 @@ export default function Home() {
     {
       title: "Leeruitkomsten",
       description: "Bekijk alles over mijn interperatie van de leeruitkomsten.",
-      href: "/leeruitkomst1",
+      href: "/introductieLeeruitkomsten",
       color: "#e08484",
       image: "/leeruitkomsten.png",
       buttonCall: "Ga naar leeruitkomsten"

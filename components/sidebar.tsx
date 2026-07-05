@@ -38,17 +38,17 @@ export function CustomSidebar({ onClose }: Props) {
 
     const sections = [
         {
-            title: "CareIbu",
+            title: "CareIbu/ woonzorgcentrum de Ingelanden",
             links: [
                 { href: "/careIbu/uitvoering", label: "Uitvoering" },
                 { href: "/careIbu/verantwoording", label: "Verantwoording" },
             ],
         },
         {
-            title: "Interview winkel coördinator",
+            title: "Meekijken bij sollictatie gesprek",
             links: [
-                { href: "/interviewWinkelCoordinator/uitvoering", label: "Uitvoering" },
-                { href: "/interviewWinkelCoordinator/verantwoording", label: "Verantwoording" },
+                { href: "/meekijkenSollicitatie/uitvoering", label: "Uitvoering" },
+                { href: "/meekijkenSollicitatie/verantwoording", label: "Verantwoording" },
             ],
         },
         {
@@ -142,6 +142,12 @@ export function CustomLeeruiktkomstenSidebar({ onClose }: Props) {
     }, []);
 
     const sections = [
+        {
+            title: "Introductie leeruikomsten",
+            links: [
+                { href: "/introductieLeeruitkomsten", label: "Introductie leeruitkomsten" },
+            ],
+        },
         {
             title: "Leeruitkomst 1",
             links: [
