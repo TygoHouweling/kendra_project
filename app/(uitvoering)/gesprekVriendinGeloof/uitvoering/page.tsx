@@ -5,7 +5,7 @@ export default function gesprekVriendinGeloofUitvoering() {
 
     return (
         <div className="mx-[10vw] mb-[5vh] gap-[3vh] flex flex-col min-h-full">
-            <h1 className="text-xl bold">Care Ibu/ woonzorgcentrum de Ingelanden</h1>
+            <h1 className="text-xl bold">Gesprek vriendin over geloof</h1>
             <p>
                 Ik heb een gesprek gehad met een vriendin over haar geloof en over haar eerste levensjaren in Somalië. Dit gesprek heeft mij meer inzichten gegeven over de diversiteit in Nederland en hoe hiermee omgegaan wordt. Deze praktijkervaring kan ik koppelen aan leeruitkomst één en dan de specialisatie toegepaste sociale psychologie en aan leeruitkomst vier je handelt professioneel naar diverse doelgroepen. Ik verwerk de onderwerpen die voor mij het meest schokkend waren in een video.
             </p>
