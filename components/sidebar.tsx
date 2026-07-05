@@ -156,6 +156,20 @@ export function CustomSidebar({ onClose }: Props) {
                 { href: "/podcastVerslavingNaarVrijheid/verantwoording", label: "Verantwoording" },
             ],
         },
+        {
+            title: "Kleine leergemeenschap",
+            links: [
+                { href: "/kleineLeergemeenschap/uitvoering", label: "Uitvoering" },
+                { href: "/kleineLeergemeenschap/verantwoording", label: "Verantwoording" },
+            ],
+        },
+        {
+            title: "Grote leergemeenschap",
+            links: [
+                { href: "/groteLeergemeenschap/uitvoering", label: "Uitvoering" },
+                { href: "/groteLeergemeenschap/verantwoording", label: "Verantwoording" },
+            ],
+        },
 
 
     ];
