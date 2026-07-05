@@ -1,8 +1,37 @@
 import { CustomFooter } from "@/components/footer";
+import { Knop } from "@/components/knop";
+import { LeeruitkomstenTabel } from "@/components/leeruitkomstenTabel";
 import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
+
+  const knoppen = [
+    {
+      title: "Leeruitkomsten",
+      description: "Bekijk alles over mijn interperatie van de leeruitkomsten.",
+      href: "/leeruitkomst1",
+      color: "#e08484",
+      image: "/leeruitkomsten.png",
+      buttonCall: "Ga naar leeruitkomsten"
+    },
+    {
+      title: "Uitvoering",
+      description: "Bekijk alle praktijkervaringen en wat ik heb gedaan.",
+      href: "/careIbu/uitvoering",
+      color: "#92AC86",
+      image: "/checklist.png",
+      buttonCall: "Ga naar uitvoering"
+    },
+    {
+      title: "Verantwoording",
+      description: "Bekijk de verantwoording, reflectie en koppeling aan de leeruitkomsten.",
+      href: "/careIbu/verantwoording",
+      color: "#F089BB",
+      image: "/brain.png",
+      buttonCall: "Ga naar verantwoording"
+    }
+  ]
   return (
     <main className="flex justify-center flex-col">
 
@@ -18,65 +47,69 @@ export default function Home() {
               TP2P02 Praktijkleren 2025-2026
             </h1>
 
-            <div>
+            <div className="max-w-[70vw] mx-auto space-y-4 text-left leading-relaxed">
               <p>
-                In deze showcase neem ik jullie mee in het werkveld van een toegepast psycholoog. Afgelopen semester ben ik de praktijk ingedoken, om te kijken wat ik met de opleiding kan en wil.
+                In deze showcase neem ik jullie mee in het werkveld van een toegepast
+                psycholoog. Afgelopen semester ben ik de praktijk ingedoken, om te
+                kijken wat ik met de opleiding kan en wil. Dit heb ik gedaan aan de
+                hand van drie vragen die centraal stonden:
               </p>
+
+              <ol type="1" className="list-decimal list-inside space-y-1 pl-2">
+                <li>Hoe ziet het werkveld van een TP'er eruit?</li>
+                <li>Wat is de toegevoegde waarde van de TP'er in het werkveld?</li>
+                <li>Wat is jouw professionele rol daarbinnen?</li>
+              </ol>
+
               <p>
-                Verder heb ik mijzelf ontwikkeld als professional in het werkveld.
-                Dit laat ik allemaal zien aan de hand van verschillende leeruitkomsten, die weer zijn opgedeeld in verschillende bewijslasten.
-                Aan de hand van deze praktijkervaringen wil ik mijn laatste twee jaar van deze studie voor mijzelf beter in beeld brengen.
+                De vragen zijn beantwoord aan de hand van de zes leeruitkomsten, die
+                weer zijn opgedeeld in verschillende bewijslasten. Aan de hand van de
+                praktijkervaringen wil ik mijn laatste twee jaar van deze studie voor
+                mijzelf beter in beeld brengen.
+              </p>
+
+              <p>
+                In de tabel hieronder vind je een overzicht van de praktijkervaringen
+                en de leeruitkomsten die ik daaraan gekoppeld heb.
+              </p>
+              <br />
+              <p>
+                Onder de tabel staan drie verschillende knoppen. De knop{" "}
+                <strong>"leeruitkomsten"</strong> navigeert naar mijn visies van de
+                zes verschillende leeruitkomsten. De knop <strong>"uitvoering"</strong>{" "}
+                navigeert naar de bewijsstukken van de praktijkervaringen. De knop{" "}
+                <strong>"verantwoording"</strong> navigeert naar de verdere
+                onderbouwing bij de praktijkervaringen. De website is opgedeeld in de
+                verschillende praktijkervaringen. Als je op uitvoering of
+                verantwoording klikt, word je daarnaar doorgestuurd. Er komt dan links
+                een menu tevoorschijn, en als je daarop klikt kan je makkelijk
+                switchen tussen de verschillende praktijkervaringen en de
+                bijbehorende uitvoeringen en verantwoordingen.
               </p>
             </div>
           </div>
         </div>
+
+        <LeeruitkomstenTabel />
         <div className="flex flex-col items-center text-center">
           <h2>Kies wat je wilt bekijken</h2>
+
           <div className="flex justify-between pt-[3vh] w-[70vw] mb-[5vh] flex-col lg:flex-row gap-[2vh] lg:gap-[2vw]">
-            <div className="w-full lg:w-[30vw] gap-[2vh] bg-[#e08484]/20 border-[#e08484] shadow-xl rounded-xl border-3 border flex flex-col items-center py-[3vh] px-[2vw] text-center">
-              <div className="rounded-full bg-[#e08484] shrink-0">
-                <Image src="/leeruitkomsten.png" width={80} height={80} alt="" />
-              </div>
-              <h4>Leeruitkomsten</h4>
-              <p>Bekijk alles over mijn interperatie van de leeruitkomsten.</p>
-              <Link
-                 key="/leeruitkomst1"
-                href="/leeruitkomst1"
-                className="px-[2vw] py-[2vh] rounded-xl border border-2 border-[#e08484]/20 bg-[#e08484]/60 hover:bg-[#e08484]"
-              >
-                Ga naar uitvoering
-              </Link>
-            </div>
-            <div className="w-full lg:w-[30vw] gap-[2vh] bg-[#92AC86]/20 border-[#92AC86] shadow-xl rounded-xl border-3 border flex flex-col items-center py-[3vh] px-[2vw] text-center">
-              <div className="rounded-full bg-[#92AC86] shrink-0">
-                <Image src="/checklist.png" width={80} height={80} alt="" />
-              </div>
-              <h4>Uitvoering</h4>
-              <p>Bekijk alle praktijkervaringen en wat ik heb gedaan.</p>
-              <Link
-                 key="/careIbu/uitvoering"
-                href="/careIbu/uitvoering"
-                className="px-[2vw] py-[2vh] rounded-xl border border-2 border-[#92AC86]/20 bg-[#92AC86]/60 hover:bg-[#92AC86]"
-              >
-                Ga naar uitvoering
-              </Link>
-            </div>
-            <div className="w-full lg:w-[30vw] gap-[2vh] bg-[#F089BB]/20 border-[#F089BB] shadow-xl rounded-xl border-3 border flex flex-col items-center py-[3vh] px-[2vw] text-center">
-              <div className="rounded-full bg-[#F089BB] shrink-0">
-                <Image src="/brain.png" width={80} height={80} alt="" />
-              </div>
-              <h4>Verantwoording</h4>
-              <p>Bekijk de verantwoording, reflectie en koppeling aan de leeruitkomsten.</p>
-              <Link
-                 key="/careIbu/verantwoording"
-                href="/careIbu/verantwoording"
-                className="px-[2vw] py-[2vh] rounded-xl border border-2 border-[#F089BB]/20 bg-[#F089BB]/60 hover:bg-[#F089BB]"
-              >
-                Ga naar verantwoording
-              </Link>
-            </div>
+            {knoppen.map((knop) => (
+              <Knop
+                key={knop.href}
+                title={knop.title}
+                description={knop.description}
+                href={knop.href}
+                color={knop.color}
+                image={knop.image}
+                buttonCall={knop.buttonCall}
+              />
+            ))}
           </div>
         </div>
+
+
       </div>
 
     </main>
