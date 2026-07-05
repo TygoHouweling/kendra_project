@@ -74,16 +74,16 @@ export default function Home() {
               </p>
               <br />
               <p>
-                Onder de tabel staan drie verschillende knoppen. De knop{" "}
+                Onder de tabel staan vijf verschillende knoppen. De knop{" "}
                 <strong>"leeruitkomsten"</strong> navigeert naar mijn visies van de
                 zes verschillende leeruitkomsten. De knop <strong>"uitvoering"</strong>{" "}
                 navigeert naar de bewijsstukken van de praktijkervaringen. De knop{" "}
                 <strong>"verantwoording"</strong> navigeert naar de verdere
-                onderbouwing bij de praktijkervaringen. De website is opgedeeld in de
+                onderbouwing bij de praktijkervaringen. De knop <strong>"evaluatie"</strong> navigeert naar mijn conclusie betreft leeruitkomst 1. De knop <strong>"literatuurlijst"</strong> navigeert naar de literatuurlijst. De website is opgedeeld in de
                 verschillende praktijkervaringen. Als je op uitvoering of
                 verantwoording klikt, word je daarnaar doorgestuurd. Er komt dan links
                 een menu tevoorschijn, en als je daarop klikt kan je makkelijk
-                switchen tussen de verschillende praktijkervaringen en de
+                wisselen tussen de verschillende praktijkervaringen en de
                 bijbehorende uitvoeringen en verantwoordingen.
               </p>
             </div>

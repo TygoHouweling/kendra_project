@@ -96,8 +96,8 @@ export function CustomSidebar({ onClose }: Props) {
         {
             title: "Documentaire inside the manosphere",
             links: [
-                { href: "/documentaireManosphere/uitvoering", label: "Uitvoering" },
-                { href: "/documentaireManosphere/verantwoording", label: "Verantwoording" },
+                { href: "/manosphere/uitvoering", label: "Uitvoering" },
+                { href: "/manosphere/verantwoording", label: "Verantwoording" },
             ],
         },
         {
