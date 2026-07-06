@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function podcastVerslavingNaarVrijheidUItvoering() {
 
     const images = [
-        { src: "/images/verslavingNaarVrijheid/podcastVerslavingnaarVrijheid.png", alt: "Foto over podcast verslaving naar vrijheid" },
+        { src: "/images/verslavingNaarVrijheid/verslavingNaarVrijheid.png", alt: "Foto over podcast verslaving naar vrijheid" },
     ]
     return (
         <div className="mx-[10vw] mb-[5vh] gap-[3vh] flex flex-col min-h-full">
