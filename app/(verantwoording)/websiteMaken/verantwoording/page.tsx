@@ -1,7 +1,7 @@
 export default function websiteMakenVerantwoording() {
     return (
         <div className="mx-[10vw] mb-[5vh] gap-[3vh] flex flex-col min-h-full">
-            <h1 className="text-xl bold break-all">Meekijken Sollicitatie</h1>
+            <h1 className="text-xl bold break-all">Website maken</h1>
             <div className=" gap-[2vh] flex flex-col">
                 <p>
                     Voor mijn showcase heb ik bewust gekozen voor een website als eindproduct. Ik wilde mijn praktijkervaringen op een overzichtelijke, creatieve en professionele manier presenteren en daarbij ook iets nieuws leren. Een website biedt de mogelijkheid om verschillende vormen, zoals samenvattingen, posters, tijdlijnen en foto's, overzichtelijk te combineren. Daarnaast kunnen beoordelaars eenvoudig door de verschillende leeruitkomsten en praktijkervaringen navigeren, als de website overzichtelijk is gebouwd.

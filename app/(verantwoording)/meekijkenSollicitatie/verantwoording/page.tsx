@@ -4,7 +4,7 @@ export default function meekijkenSollicitatie() {
 
     return (
         <div className="mx-[10vw] mb-[5vh] gap-[3vh] flex flex-col min-h-full">
-            <h1 className="text-xl bold break-all">Meekijken Sollicitatie</h1>
+            <h1 className="text-xl bold break-all">Meekijken bij sollicitatie gesprek</h1>
             <div className=" gap-[2vh] flex flex-col">
                 <p>
                     Ik heb meegekeken bij een sollicitatiegesprek bij de Albert Heijn in Boskoop. Het sollicitatiegesprek was tussen de winkelcoördinator Ricardo en een sollicitant voor de functie vakkenvuller. Ik ben gaan meekijken omdat ik benieuwd was naar hoe de Albert Heijn zijn medewerkers uitkiest en wat er voorafgaat aan een sollicitatiegesprek en hoe zijn sollicitatiegesprek in werking gaat. Ik wilde weten of er nog bepaalde trainingen aan verbonden zijn en of de winkelcoördinator nog bepaalde technieken toepaste tijdens het gesprek. Dit wilde ik zelf observeren, dus ik heb eerst gekeken naar hoe de winkelcoördinator het gesprek aanpakte en daarna heb ik nog een kort interview met hem gehouden.

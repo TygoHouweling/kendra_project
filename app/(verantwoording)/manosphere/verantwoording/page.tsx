@@ -1,7 +1,7 @@
 export default function manosphereUitvoering() {
     return (
         <div className="mx-[10vw] mb-[5vh] gap-[3vh] flex flex-col min-h-full">
-            <h1 className="text-xl bold">Manosphere</h1>
+            <h1 className="text-xl bold">Documentaire inside the manosphere</h1>
 
             <div className=" gap-[2vh] flex flex-col">
                 <p>
