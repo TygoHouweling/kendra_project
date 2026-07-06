@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function podcastVerslavingNaarVrijheidVerantwoording() {
     return (
         <div className="mx-[10vw] mb-[5vh] gap-[3vh] flex flex-col min-h-full">
-            <h1 className="text-xl bold">Podcast verslaving naar vrijheid</h1>
+            <h1 className="text-xl bold">Podcast van verslaving naar vrijheid</h1>
             <div className="flex flex-col gap-[2vh]">
                 <p>
                     Voor deze praktijkervaring heb ik een aflevering van de podcast <i>Van verslaving naar vrijheid beluisterd</i>. In deze aflevering vertelt een vrouw openhartig over haar leven, waarin zij op jonge leeftijd te maken kreeg met mishandeling. Vanaf haar veertiende begon zij alcohol te gebruiken en later combineerde zij dit ook met cocaïne. Ze vertelt hoe haar verslaving invloed had op verschillende aspecten van haar leven, waaronder haar zwangerschap, het contact met haar kind en haar herstelproces.

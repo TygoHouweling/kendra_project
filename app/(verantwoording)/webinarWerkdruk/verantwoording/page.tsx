@@ -41,7 +41,7 @@ export default function webinarWerkdrukUitvoering() {
                 </p>
             </div>
             <p>Bakker, A., & Demerouti, E. (2007). The Job Demands-Resources model: state of the art. <i>Journal of Managerial Psychology</i>, 22(3), 309-328. <a href="https://doi.org/10.1108/02683940710733115" target="_blank" rel="noopener noreferrer">https://doi.org/10.1108/02683940710733115</a></p>
-            <p>Rijkinstituut voor Volksgezondheid en Milieu. (z.d.). <i>Psychosociale arbeidsbelasting.</i> RIVM. Geraadpleegd op 22 juni 2026, van <a href="https://www.rivm.nl/determinanten-van-gezondheid/psychosociale-arbeidsbelasting" target="_blank" rel="noopener noreferrer">https://www.rivm.nl/determinanten-van-gezondheid/psychosociale-arbeidsbelasting</a></p>
+            <p>Rijksinstituut voor Volksgezondheid en Milieu. (z.d.). <i>Psychosociale arbeidsbelasting.</i> RIVM. Geraadpleegd op 22 juni 2026, van <a href="https://www.rivm.nl/determinanten-van-gezondheid/psychosociale-arbeidsbelasting" target="_blank" rel="noopener noreferrer">https://www.rivm.nl/determinanten-van-gezondheid/psychosociale-arbeidsbelasting</a></p>
 
         </div>
     );
