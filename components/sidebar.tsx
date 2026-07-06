@@ -152,8 +152,8 @@ export function CustomSidebar({ onClose }: Props) {
         {
             title: "SPSS",
             links: [
-                { href: "/podcastVerslavingNaarVrijheid/uitvoering", label: "Uitvoering" },
-                { href: "/podcastVerslavingNaarVrijheid/verantwoording", label: "Verantwoording" },
+                { href: "/spss/uitvoering", label: "Uitvoering" },
+                { href: "/spss/verantwoording", label: "Verantwoording" },
             ],
         },
         {

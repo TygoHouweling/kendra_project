@@ -14,7 +14,7 @@ export function Carousel({ images }: CarouselProps) {
   const next = () => setIndex((i) => (i === images.length - 1 ? 0 : i + 1));
 
   return (
-    <div className="relative w-full max-w-2xl mx-auto mt-[5vh]">
+    <div className="relative w-full max-w-4xl mx-auto mt-[5vh]">
       <div className="relative w-full h-[60vh] bg-gray-100 overflow-hidden rounded-xl shadow-lg">
         {images.map((img, i) => (
           <div
