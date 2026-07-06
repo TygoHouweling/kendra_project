@@ -12,7 +12,6 @@ export default function Leeruitkomst5() {
                     Ik heb geen idee wat ik hiervan kan verwachten, maar waar ik gelijk aan moet denken is de Excel lessen op de middelbare school en het statistiek vak KOM (kwalitatief onderzoek en empirische methoden) op de universiteit. Ik word daar eerlijk gezegd een beetje bang van. Excel vond ik namelijk wel erg leuk, alleen KOM heeft mij laten stoppen met mijn opleiding omdat ik dat vak niet haalde. Echter zijn het voor TP, praktijklessen dus denk ik niet dat je veel theorie krijgt wat ik bij KOM wel kreeg. Ik verwacht dat ik vooral leer hoe ik data moet verwerken die verkregen zijn uit beantwoorde vragenlijsten.
                 </p>
                 <p>Ik ben erg benieuwd naar wat ik hier ga leren en of ik het ook daadwerkelijk onder de knie ga krijgen. </p>
-                <p className="underline">Theorie</p>
             </div>
 
         </div>

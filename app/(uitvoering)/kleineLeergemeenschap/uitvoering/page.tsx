@@ -31,7 +31,7 @@ export default function kleineLeergemeenschapUitvoering() {
     ]
     return (
         <div className="mx-[10vw] mb-[5vh] gap-[3vh] flex flex-col min-h-full">
-            <h1 className="text-xl bold">Care Ibu/ woonzorgcentrum de Ingelanden</h1>
+            <h1 className="text-xl bold">Kleine leergemeenschap</h1>
             <div className="flex flex-col gap-[2vh]">
                 <p>
                     Afgelopen semester heb ik voor het project Praktijkleren deel uitgemaakt van een kleine leergemeenschap. Deze kleine leergemeenschap bestond uit de halve klas. Binnen de kleine leergemeenschap heb ik gewerkt aan de leeruitkomst 6 ''je werkt aan het vormen en onderhouden van een leergemeenschap''. Hieronder neem ik jullie mee in alle dingen die ik heb uitgevoerd om deze leeruitkomst te waarborgen.

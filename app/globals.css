@@ -21,6 +21,16 @@
   --color-brand-selected: color-mix(in srgb, #e08484 60%, white)
 }
 
+.theme-literatuurlijst {
+  --color-brand: #aff089;
+  --color-brand-selected: color-mix(in srgb, #aff089 60%, white)
+}
+
+.theme-evaluatie {
+  --color-brand: #89d8f0;
+  --color-brand-selected: color-mix(in srgb, #89d8f0 60%, white)
+}
+
 :root {
   /* --background: #fff1e3; */
   --background: #f7ede4;

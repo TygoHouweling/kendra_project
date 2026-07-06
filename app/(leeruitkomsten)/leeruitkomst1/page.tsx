@@ -39,7 +39,6 @@ export default function Leeruitkomst1() {
                 <p className="underline">Mijn visie</p>
                 <p>Deze specialisatie vind ik zelf erg lastig en breed. Waar ik zelf aan moet denken is het aanpakken van maatschappelijke problemen. Echter zijn er zo veel maatschappelijke problemen waardoor ik door de bomen het bos niet meer zie en niet weet waar de focus precies ligt. Doordat het maatschappelijke problemen zijn, lijkt het mij erg moeilijk om hier een oplossing voor te vinden en om hier voldoening uit de halen. Als je iemand één op één coacht zie je bijvoorbeeld het resultaat voor je, maar bij deze specialisatie heb je dat niet en dat lijkt mij lastig. In het eerste jaar moest ik bijvoorbeeld een training geven over faalangst. Alhoewel ik de training geven leuk vond, vond ik het achteraf lastig inschatten of mensen er echt iets aan hadden en of ze erdoor zijn opgeschoten. Hierdoor merkte ik dat ik niet de voldoening ervaarde die ik had verwacht. </p>
                 <p>Het lijkt mij interessant om meer over deze specialisatie te leren door praktijkervaring op te doen. Wellicht veranderd mijn mening door de praktijkervaringen. </p>
-                <p className="underline">Theorie</p>
             </div>
         </div>
     );

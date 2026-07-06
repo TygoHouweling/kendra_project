@@ -14,7 +14,6 @@ export default function Leeruitkomst4() {
                 <p>Inclusie betekent voor mij dat je rekening houdt met dat iedereen anders is. Wat voor iemand prettig is betekent niet dat dat voor een ander ook zo is. Dit weet je alleen door aan mensen te vragen wat ze fijn vinden en je hieraan aanpassen.
                 </p>
                 <p>Ik ben erg enthousiast om mijn professioneel handelen naar diverse doelgroepen te verbeteren en hier meer over te leren. </p>
-                <p className="underline">Theorie</p>
             </div>
 
         </div>

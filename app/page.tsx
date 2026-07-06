@@ -30,6 +30,22 @@ export default function Home() {
       color: "#F089BB",
       image: "/brain.png",
       buttonCall: "Ga naar verantwoording"
+    },
+    {
+      title: "Evaluatie",
+      description: "Bekijk hier de evaluatie.",
+      href: "/evaluatie",
+      color: "#89d8f0",
+      image: "/evaluatie.png",
+      buttonCall: "Ga naar evaluatie"
+    },
+    {
+      title: "Literatuurlijst",
+      description: "Bekijk hier de literatuurlijst.",
+      href: "/literatuurlijst",
+      color: "#aff089",
+      image: "/literatuurlijst.png",
+      buttonCall: "Ga naar literatuurlijst"
     }
   ]
   return (
