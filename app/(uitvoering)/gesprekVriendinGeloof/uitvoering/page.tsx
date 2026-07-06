@@ -25,7 +25,7 @@ export default function gesprekVriendinGeloofUitvoering() {
             </p>
 
             <video controls width="600">
-                <source src="/videos/gesprek_vriendin_geloof.mp4" type="video/mp4" />
+                <source src="/videos/gesprek_vriendin_geloof_2.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
             </video>
         </div>
