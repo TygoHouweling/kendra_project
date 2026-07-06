@@ -54,18 +54,6 @@ export function LeeruitkomstenTabel() {
                         <td className="border border-gray-300 p-2"></td>
                     </tr>
                     <tr>
-                        <td className="border border-gray-300 p-2"><p>Interview psycholoog </p></td>
-                        <td className="border border-gray-300 p-2"></td>
-                        <td className="border border-gray-300 p-2 bg-pink-200"></td>
-                        <td className="border border-gray-300 p-2"></td>
-                        <td className="border border-gray-300 p-2"></td>
-                        <td className="border border-gray-300 p-2"></td>
-                        <td className="border border-gray-300 p-2"></td>
-                        <td className="border border-gray-300 p-2"></td>
-                        <td className="border border-gray-300 p-2"></td>
-                        <td className="border border-gray-300 p-2"></td>
-                    </tr>
-                    <tr>
                         <td className="border border-gray-300 p-2"><p>Behandeltraject psycholoog angststoornis </p></td>
                         <td className="border border-gray-300 p-2"></td>
                         <td className="border border-gray-300 p-2 bg-pink-200"></td>
@@ -85,7 +73,7 @@ export function LeeruitkomstenTabel() {
                         <td className="border border-gray-300 p-2"></td>
                         <td className="border border-gray-300 p-2"></td>
                         <td className="border border-gray-300 p-2"></td>
-                        <td className="border border-gray-300 p-2 bg-pink-200"></td>
+                        <td className="border border-gray-300 p-2"></td>
                         <td className="border border-gray-300 p-2"></td>
                         <td className="border border-gray-300 p-2"></td>
                     </tr>
@@ -126,42 +114,6 @@ export function LeeruitkomstenTabel() {
                         <td className="border border-gray-300 p-2"></td>
                     </tr>
                     <tr>
-                        <td className="border border-gray-300 p-2"><p>Blik op jezelf test </p></td>
-                        <td className="border border-gray-300 p-2 bg-pink-200"></td>
-                        <td className="border border-gray-300 p-2"></td>
-                        <td className="border border-gray-300 p-2"></td>
-                        <td className="border border-gray-300 p-2"></td>
-                        <td className="border border-gray-300 p-2"></td>
-                        <td className="border border-gray-300 p-2"></td>
-                        <td className="border border-gray-300 p-2"></td>
-                        <td className="border border-gray-300 p-2"></td>
-                        <td className="border border-gray-300 p-2"></td>
-                    </tr>
-                    <tr>
-                        <td className="border border-gray-300 p-2"><p>Webinars jeugd en veiligheid </p></td>
-                        <td className="border border-gray-300 p-2"></td>
-                        <td className="border border-gray-300 p-2"></td>
-                        <td className="border border-gray-300 p-2 bg-pink-200"></td>
-                        <td className="border border-gray-300 p-2"></td>
-                        <td className="border border-gray-300 p-2"></td>
-                        <td className="border border-gray-300 p-2"></td>
-                        <td className="border border-gray-300 p-2"></td>
-                        <td className="border border-gray-300 p-2"></td>
-                        <td className="border border-gray-300 p-2"></td>
-                    </tr>
-                    <tr>
-                        <td className="border border-gray-300 p-2"><p>Boek 'gegijzeld' </p></td>
-                        <td className="border border-gray-300 p-2"></td>
-                        <td className="border border-gray-300 p-2 bg-pink-200"></td>
-                        <td className="border border-gray-300 p-2"></td>
-                        <td className="border border-gray-300 p-2"></td>
-                        <td className="border border-gray-300 p-2"></td>
-                        <td className="border border-gray-300 p-2"></td>
-                        <td className="border border-gray-300 p-2"></td>
-                        <td className="border border-gray-300 p-2"></td>
-                        <td className="border border-gray-300 p-2"></td>
-                    </tr>
-                    <tr>
                         <td className="border border-gray-300 p-2"><p>Gesprek vriendin over geloof </p></td>
                         <td className="border border-gray-300 p-2"></td>
                         <td className="border border-gray-300 p-2"></td>
@@ -170,42 +122,6 @@ export function LeeruitkomstenTabel() {
                         <td className="border border-gray-300 p-2"></td>
                         <td className="border border-gray-300 p-2"></td>
                         <td className="border border-gray-300 p-2 bg-pink-200"></td>
-                        <td className="border border-gray-300 p-2"></td>
-                        <td className="border border-gray-300 p-2"></td>
-                    </tr>
-                    <tr>
-                        <td className="border border-gray-300 p-2"><p>CV opstellen </p></td>
-                        <td className="border border-gray-300 p-2"></td>
-                        <td className="border border-gray-300 p-2"></td>
-                        <td className="border border-gray-300 p-2"></td>
-                        <td className="border border-gray-300 p-2"></td>
-                        <td className="border border-gray-300 p-2"></td>
-                        <td className="border border-gray-300 p-2"></td>
-                        <td className="border border-gray-300 p-2"></td>
-                        <td className="border border-gray-300 p-2"></td>
-                        <td className="border border-gray-300 p-2"></td>
-                    </tr>
-                    <tr>
-                        <td className="border border-gray-300 p-2"><p>Gesprek inburgering </p></td>
-                        <td className="border border-gray-300 p-2"></td>
-                        <td className="border border-gray-300 p-2"></td>
-                        <td className="border border-gray-300 p-2"></td>
-                        <td className="border border-gray-300 p-2 bg-pink-200"></td>
-                        <td className="border border-gray-300 p-2"></td>
-                        <td className="border border-gray-300 p-2"></td>
-                        <td className="border border-gray-300 p-2 bg-pink-200"></td>
-                        <td className="border border-gray-300 p-2"></td>
-                        <td className="border border-gray-300 p-2"></td>
-                    </tr>
-                    <tr>
-                        <td className="border border-gray-300 p-2"><p>Observeren ongeluk </p></td>
-                        <td className="border border-gray-300 p-2"></td>
-                        <td className="border border-gray-300 p-2"></td>
-                        <td className="border border-gray-300 p-2 bg-pink-200"></td>
-                        <td className="border border-gray-300 p-2"></td>
-                        <td className="border border-gray-300 p-2"></td>
-                        <td className="border border-gray-300 p-2 bg-pink-200"></td>
-                        <td className="border border-gray-300 p-2"></td>
                         <td className="border border-gray-300 p-2"></td>
                         <td className="border border-gray-300 p-2"></td>
                     </tr>

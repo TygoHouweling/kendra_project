@@ -7,7 +7,7 @@ export default function trajectPsycholoogUItvoering() {
     ]
     return (
         <div className="mx-[10vw] mb-[5vh] gap-[3vh] flex flex-col min-h-full">
-            <h1 className="text-xl bold">Traject Psycholoog</h1>
+            <h1 className="text-xl bold">Behandeltraject psycholoog angststoornis</h1>
             <div className="flex flex-col gap-[2vh]">
                 <p>
                     Ik heb 3 maanden lang een behandeltraject gevolgd bij een psycholoog voor mijn paniekstoornis. Tijdens dit behandeltraject lag de focus op het verminderen van mijn paniekklachten die voortkomen uit emetofobie en agarofobie. Mijn ervaring sluit aan bij leeruitkomst één en dan de specialisatie levensloop. Ik wil mijn behandeltraject samenvatten in een mini podcast, waarin ik vertel over het verloop van mij traject.

@@ -59,13 +59,6 @@ export function CustomSidebar({ onClose }: Props) {
             ],
         },
         {
-            title: "Interview psycholoog",
-            links: [
-                { href: "/interviewPsycholoog/uitvoering", label: "Uitvoering" },
-                { href: "/interviewPsycholoog/verantwoording", label: "Verantwoording" },
-            ],
-        },
-        {
             title: "Behandeltraject psycholoog angststoornis",
             links: [
                 { href: "/trajectPsycholoog/uitvoering", label: "Uitvoering" },
@@ -101,45 +94,10 @@ export function CustomSidebar({ onClose }: Props) {
             ],
         },
         {
-            title: "Blik op jezelf test",
-            links: [
-                { href: "/blikOpJezelfTest/uitvoering", label: "Uitvoering" },
-                { href: "/blikOpJezelfTest/verantwoording", label: "Verantwoording" },
-            ],
-        },
-        {
-            title: "Boek 'gegijzeld'",
-            links: [
-                { href: "/boekGegijzeld/uitvoering", label: "Uitvoering" },
-                { href: "/boekGegijzeld/verantwoording", label: "Verantwoording" },
-            ],
-        },
-        {
             title: "Gesprek vriendin over geloof",
             links: [
                 { href: "/gesprekVriendinGeloof/uitvoering", label: "Uitvoering" },
                 { href: "/gesprekVriendinGeloof/verantwoording", label: "Verantwoording" },
-            ],
-        },
-        {
-            title: "CV opstellen",
-            links: [
-                { href: "/cvOpstellen/uitvoering", label: "Uitvoering" },
-                { href: "/cvOpstellen/verantwoording", label: "Verantwoording" },
-            ],
-        },
-        {
-            title: "Gesprek inburgering",
-            links: [
-                { href: "/gesprekInburgering/uitvoering", label: "Uitvoering" },
-                { href: "/gesprekInburgering/verantwoording", label: "Verantwoording" },
-            ],
-        },
-        {
-            title: "Observeren ongeluk",
-            links: [
-                { href: "/observerenOngeluk/uitvoering", label: "Uitvoering" },
-                { href: "/observerenOngeluk/verantwoording", label: "Verantwoording" },
             ],
         },
         {
@@ -166,8 +124,7 @@ export function CustomSidebar({ onClose }: Props) {
         {
             title: "Grote leergemeenschap",
             links: [
-                { href: "/groteLeergemeenschap/uitvoering", label: "Uitvoering" },
-                { href: "/groteLeergemeenschap/verantwoording", label: "Verantwoording" },
+                { href: "/groteLeergemeenschap", label: "Bekijk alles over de grote leergemeenschap" },
             ],
         },
 

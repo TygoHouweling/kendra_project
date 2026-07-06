@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function trajectPsycholoogUItvoering() {
     return (
         <div className="mx-[10vw] mb-[5vh] gap-[3vh] flex flex-col min-h-full">
-            <h1 className="text-xl bold">Traject Psycholoog</h1>
+            <h1 className="text-xl bold">Behandeltraject psycholoog angststoornis</h1>
             <div className=" gap-[2vh] flex flex-col">
                 <p>
                     Voor deze praktijkervaring heb ik een podcast gemaakt waarin ik mijn behandeltraject binnen de geestelijke gezondheidszorg beschrijf. Tijdens dit traject heb ik niet alleen ervaren hoe een psycholoog te werk gaat, maar ook inzicht gekregen in het proces van diagnostiek, behandeling en gedragsverandering. Ik heb geleerd hoe verschillende behandelmethoden worden ingezet en hoe deze worden afgestemd op de hulpvraag van een cliënt, dus voor mij op dat moment.
